@@ -1,0 +1,39 @@
+<header>
+
+    <img src="header/logo.png" alt="site-logo" class="logo">
+
+    <nav>
+        <ul>
+            <li><a routerLink="/shop">Shop</a></li>
+            <li><a routerLink="/men">Men</a></li>
+            <li><a routerLink="/women">Woman</a></li>
+            <li><a routerLink="/combos">Combos</a></li>
+            <li><a routerLink="/joggers">Joggers</a></li>
+        </ul>
+    </nav>
+
+    <form class="search-form">
+      <img src="header/search.png" alt="search-icon" class="search-icon">
+      <input 
+        type="text" 
+        placeholder="Search" 
+        [(ngModel)]="searchQuery" 
+        (ngModelChange)="onSearch()"
+        name="searchQuery"
+        class="search-input"
+      />
+    </form>
+
+    <div class="icon-container">
+      <button class="icon" (click)="onHeartClick()">
+         <img src="header/heart.png" alt="heart-icon">
+      </button>
+      <button class="icon" (click)="onUserClick()">
+        <img src="header/user.png" alt="user-icon">
+      </button>
+      <button class="icon" (click)="onCartClick()">
+        <img src="header/cart.png" alt="cart-icon">
+      </button>
+    </div>
+
+</header>
