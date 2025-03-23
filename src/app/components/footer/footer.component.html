@@ -1,1 +1,75 @@
-<p>footer works!</p>
+<footer>
+    <div class="top">
+        <div class="category">
+            <h3>Need Help?</h3>
+            <nav>
+                <a routerLink="/contact-us">Contact Us</a>
+                <a routerLink="/track-order">Track Order</a>
+                <a routerLink="/returns-refunds">Returns & Refunds</a>
+                <a routerLink="/faq">FAQ's</a>
+                <a routerLink="/career">Career</a>
+            </nav>
+        </div>
+
+        <div class="category">
+            <h3>Company</h3>
+            <nav>
+                <a routerLink="/about-us">About Us</a>
+                <a routerLink="/euphoria-blog">euphoria Blog</a>
+                <a routerLink="/euphoriastan">euphoriastan</a>
+                <a routerLink="/collaboration">Collaboration</a>
+                <a routerLink="/media">Media</a>
+            </nav>
+        </div>
+
+        <div class="category">
+            <h3>More Info</h3>
+            <nav>
+                <a routerLink="/terms-conditions">Terms and Conditions</a>
+                <a routerLink="/privacy-policy">Privacy Policy</a>
+                <a routerLink="/shipping-policy">Shipping Policy</a>
+                <a routerLink="/sitemap">Sitemap</a>
+            </nav>
+        </div>
+
+        <div class="location-info">
+            <h3>Location</h3>
+            <p [innerHTML]="'support@euphoria.in'"></p>
+            <p>Eklingpura Chouraha, Ahmedabad Main Road</p>
+            <p>(NH 8- Near Mahadev Hotel) Udaipur, India- 313002</p>
+        </div>
+    </div>
+
+
+    <div class="mid">
+        <div class="icon-container">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="/footer/fb-icon.png" alt="facebook icon">
+            </a>
+            <a href="https://www.instagram.comL" target="_blank">
+                <img src="/footer/instagram-icon.png" alt="instagram icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="/footer/twitter-icon.png" alt="twitter icon">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="/footer/linkedin-icon.png" alt="linkedin icon">
+            </a>
+        </div>
+
+        <div class="download-options">
+            <h2>Download the App</h2>
+            <nav>
+                <a routerLink=""><img src="footer/playstore.png" alt="playstore icon"></a>
+                <a routerLink=""><img src="footer/appstore.png" alt="appstore icon"></a>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="bottom">
+        <div class="hr"></div>
+
+        <p>Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</p>
+    </div>
+</footer>
