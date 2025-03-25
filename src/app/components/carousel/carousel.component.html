@@ -1,0 +1,12 @@
+<swiper-container
+  slides-per-view="auto"
+  space-between="40"
+  navigation="true"
+>
+  <swiper-slide *ngFor="let simpleCategory of simpleCategories">
+    <div class="product-card">
+      <img [src]="simpleCategory.imgUrl" alt="{{ simpleCategory.title }}">
+      <p>{{ simpleCategory.title }}</p>
+    </div>
+  </swiper-slide>
+</swiper-container>

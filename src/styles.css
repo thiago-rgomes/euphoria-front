@@ -7,6 +7,8 @@
 
 :root {
   --color-lightgray: #807D7E;
+  --color-darkgray: #3C4242;
+  --color-pipe: #8A33FD;
   --bg-lightgray: #F6F6F6;
   --bg-darkgray: #3C4242;
 }

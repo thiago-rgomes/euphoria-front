@@ -38,7 +38,7 @@ div {
     display: flex;
     justify-content: center;
     gap: 30px;  
-    padding: 7% 2% 5% 2%;
+    padding: 7% 100px 5% 100px;
 }
 
 .card {
