@@ -1,35 +1,17 @@
 main {
-    max-width: 1444px;
     height: 450px;
-    padding: 0 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 100px;
 }
 
-div {
-    display: flex;
+app-pipe-with-text {
     align-self: flex-start;
-    align-items: center;
-    gap: 15px;
-}
-
-.pipe {
-    width: 4px;
-    height: 28px;
-    background-color: var(--color-pipe);
-    align-self: center;
-}
-
-h2 {
-    font-size: 34px;
-    font-weight: 700;
-    color: var(--color-darkgray);
+    margin-bottom: 70px;
 }
 
 app-carousel {
     width: 100%;
-    margin-top: 70px;  
     align-self: center;
 }

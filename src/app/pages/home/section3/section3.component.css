@@ -1,0 +1,171 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+
+app-pipe-with-text {
+  align-self: flex-start;
+}
+
+.mid-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+
+.top-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  width: 400px;
+  height: 393px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 38px;
+  padding-left: 20px; 
+  padding-right: 20px; 
+}
+
+.text-btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
+
+small {
+  font-size: 14px;
+  align-self: flex-start;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  align-self: flex-start;
+}
+
+.card img {
+  width: 24px;
+  height: 23px;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-gray {
+  color: var(--color-darkgray);
+}
+
+.text-right {
+  align-items: flex-end;
+}
+
+.text-left {
+  align-items: flex-start;
+}
+
+.one{
+  background-image: url('/home/section3/first-card.png');
+}
+
+.two{
+  background-image: url('/home/section3/second-card.png');
+}
+
+.two h3, #top-btn {
+  align-self: flex-end;
+}
+
+.two h4 {
+  align-self: flex-end;
+}
+
+#top-btn {
+  margin-top: -7%;
+  color: yellow;
+}
+
+.three {
+  background-image: url('/home/section3/third-card.png');
+}
+
+.four {
+  background-image: url('/home/section3/fourth-card.png');
+}
+
+.five {
+  background-image: url('/home/section3/fifth-card.png');
+}
+
+.bottom-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.bottom-cards .card {
+  width: 610px;
+  padding-right: 12%;
+}
+
+.bottom-section {
+  display: flex;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/home/section3/left-card.png');
+  background-size: cover;
+  width: 614px;
+  height: 640px;
+  padding: 0 74px;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+
+
+.left h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.left p {
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+  opacity: 0.8; 
+  margin-bottom: 20px; 
+}
+
+.right {
+  background-image: url('/home/section3/right-card.png');
+  width: 614px;
+  height: 640px;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+

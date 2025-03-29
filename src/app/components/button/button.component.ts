@@ -7,6 +7,7 @@ import { Component, Input } from '@angular/core';
   styleUrl: './button.component.css'
 })
 export class ButtonComponent {
+  @Input() id: string = '';
   @Input() text: string = 'Shop Now';
   @Input() fontSize: string = '20px';
   @Input() fontWeight: string = 'bold';
@@ -15,7 +16,6 @@ export class ButtonComponent {
   @Input() width: string = '250px';
   @Input() height: string = '60px';
   @Input() border: string = 'none';
-  @Input() borderColor: string = 'none';
   @Input() borderRadius: string = '4px';
   @Input() cursor: string = 'pointer';
   @Input() hoverOpacity: number = 0.7;  
