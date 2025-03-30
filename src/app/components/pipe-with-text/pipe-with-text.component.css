@@ -5,7 +5,7 @@ div {
 }
 
 .pipe {
-    width: 4px;
+    width: 6px;
     height: 28px;
     background-color: var(--color-pipe);
     align-self: center;

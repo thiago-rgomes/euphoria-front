@@ -18,14 +18,14 @@ interface SimpleCategory {
 })
 export class CarouselComponent {
 
-  simpleCategories: SimpleCategory[] = [];
-
   config: SwiperOptions = {
     slidesPerView: 4,
     spaceBetween: 10,
     navigation: true,
     pagination: { clickable: true },
   };
+
+  simpleCategories: SimpleCategory[] = [];
 
   constructor() {
     this.simpleCategories = [
