@@ -1,0 +1,13 @@
+<div class="item-card">
+    <div class="image-container">
+        <img [src]="item.image" [alt]="item.title">
+        <button><img class="heart-icon" src="/home/section6/heart-icon.png" alt="heart-icon"></button>
+    </div>
+    <div class="bottom-container">
+        <div class="text-container">
+            <p>{{item.title}}</p>
+            <small>{{item.subtitle}}</small>
+        </div>
+        <p id="price">${{item.price}}</p>
+    </div>
+</div>

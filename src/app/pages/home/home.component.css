@@ -6,6 +6,13 @@
 }
 
 app-section5 {
-    padding: 0 100px;
+    max-width: 1230px;
+    margin: 0 auto;
+    margin-bottom: 76px;
+}
+
+app-section6 {
+    max-width: 1230px;
+    margin: 0 auto;
     margin-bottom: 76px;
 }

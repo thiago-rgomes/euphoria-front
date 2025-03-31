@@ -1,0 +1,57 @@
+.item-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 282px;
+    max-height: 441px;
+    gap: 30px;
+}
+
+.image-container {
+    position: relative;
+    max-width: 282px;
+    max-height: 370px;
+    object-fit: cover;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.heart-icon {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    max-width: 32px;
+    max-height: 32px;
+    cursor: pointer;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-container p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.text-container small {
+    font-size: 14px;
+    color: var(--color-lightgray);
+}
+
+#price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    width: 82px;
+    height: 37px;
+    border-radius: 8px;
+    background-color: var(--bg-lightgray);
+}
