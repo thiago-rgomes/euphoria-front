@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CategoryCardComponent } from "../category-card/category-card.component";
 import { CommonModule } from '@angular/common';
+import { Category } from '../../models/category';
 
 @Component({
   selector: 'app-category-list',
@@ -13,8 +14,8 @@ export class CategoryListComponent implements OnInit {
   @Input() startIndex: number = 0;
   @Input() endIndex: number = 8;
 
-  categories: any[] = [];
-  filteredCategories: any[] = [];
+  categories: Category[] = [];
+  filteredCategories: Category[] = [];
 
   constructor() {
     this.categories = [
