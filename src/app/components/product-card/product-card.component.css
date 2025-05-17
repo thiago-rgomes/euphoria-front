@@ -18,13 +18,21 @@
     max-height: 100%;
 }
 
-.heart-icon {
+.heart-button {
     position: absolute;
     top: 20px;
     right: 15px;
     max-width: 32px;
     max-height: 32px;
+    background: none;
+    border: none;
+    padding: 0;
     cursor: pointer;
+}
+
+.heart-icon {
+    max-width: 32px;
+    max-height: 32px;
 }
 
 .bottom-container {
