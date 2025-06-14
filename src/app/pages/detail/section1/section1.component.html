@@ -1,1 +1,4 @@
-<p>section1 works!</p>
+<div class="product-container" *ngIf="product">
+  <app-gallery-section [images]="product.image"></app-gallery-section>
+  <app-detail-section [details]="product"></app-detail-section>
+</div>

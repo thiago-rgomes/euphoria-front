@@ -1,0 +1,17 @@
+<div class="gallery-container">
+
+  <div class="thumbnails">
+    <img
+      *ngFor="let image of images"
+      [src]="image"
+      (click)="selectImage(image)"
+      [class.active]="image === selectedImage"
+      alt="Thumbnail"
+    />
+  </div>
+
+
+  <div class="main-image">
+    <img [src]="selectedImage" alt="Selected" />
+  </div>
+</div>

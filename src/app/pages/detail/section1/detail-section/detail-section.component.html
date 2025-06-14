@@ -1,0 +1,27 @@
+<div class="details">
+  <p class="breadcrumb"><span>Shop</span>  <span>></span>  <span>Women</span> <span>></span> <span>Top</span></p>
+  <h1>{{ details.title }}</h1>
+  <p>Rating: {{ details.rating }} ★ ({{ details.comments }} comments)</p>
+
+  <div class="sizes">
+    <p>Select Size</p>
+    <div class="sizes-row">
+        <span *ngFor="let size of details.sizes" 
+              [class.selected]="size === details.selectedSize"><div class="sizes-icon">{{ size }}</div></span>
+    </div>
+  </div>
+
+  <div class="colors">
+    <p>Colors Available</p>
+    <div class="colors-row">
+      <span *ngFor="let color of details.colors"><div class="colors-icon" [ngStyle]="{'background-color': color}"></div></span>
+    </div>
+    
+  </div>
+
+  <div class="buttons">
+    <app-button width="200px" height="46px" text="Add to Cart" fontSize="14px" fontColor="white" bgColor="var(--color-pipe)" border="none"></app-button>
+    <app-button width="138px" height="46px" text="{{ details.price | currency }}" fontSize="14px" fontColor="black" bgColor="white" border="2px solid #3C4242"></app-button>
+  </div>
+
+</div>

@@ -3,5 +3,10 @@ export interface Product {
     title: string;
     subTitle: string;
     price: number;
-    image: string;
+    rating: number;
+    comments: number;
+    sizes: string;
+    selectedSize: string;
+    colors: string[];
+    image: string[];
 }
